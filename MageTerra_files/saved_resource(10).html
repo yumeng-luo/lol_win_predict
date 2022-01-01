@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)https://na.op.gg/summoner/userName=MageTerra -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!--<base href="https://cdn.justpremium.com/api-builder-prod/custom_builder/56882eed-36c6-43af-b34a-97eaa65b6335/1640017238/">--><base href="."><script>var layer = 'bg';var cw;try {    var loc = window.top.location.href;    cw = window.top;} catch (e) {    cw = window.parent;}var vars = cw.jp_creative_vars || {};function writeScript(src) {    var script = window.document.createElement('script');    script.src = src;    window.document.head.appendChild(script);    console.log('Vendor script has been added successfully', src);}switch (layer) {    case 'top':        try {            var format = cw[window.top.jpx_template_id].format;            if (format === 'ca' || format === 'pd') {                if (vars.vendor) {                    writeScript(vars.vendor)                }                if (vars.vendors && typeof vars.vendors === 'object') {                    vars.vendors.forEach(function (vendorObj, key) {                        if (vendorObj && '' !== vendorObj.script) {                            writeScript(vendorObj.script);                        }                    })                }            }        } catch (e) {            console.warn('Can not add vendor script!');        }        break;    case 'left':    case 'global':    case 'main':        if (vars.vendor) {            writeScript(vars.vendor)        }        if (vars.vendors && typeof vars.vendors === 'object') {            vars.vendors.forEach(function (vendorObj, key) {                if (vendorObj && '' !== vendorObj.script) {                    writeScript(vendorObj.script);                }            })        }}</script>
+    
+    <link rel="stylesheet" href="./premium_2.0.css">
+    <link rel="stylesheet" href="./style.css">
+ <script> function sendReports(e) { e.forEach(function (e) { var i; "HeavyAdIntervention" === e.body.id && jpxApi && jpxApi.getCreativeID && jpxApi.getFormat && jpxApi.geo && jpxApi.getRid && jpxApi.getZid && (i = JSON.stringify({ cid: jpxApi.getCreativeID() || null, id: e.body.id || null, fc: [jpxApi.getFormat()] || null, ic: jpxApi.geo().isocode || null, rid: jpxApi.getRid() || null, zid: jpxApi.getZid() || null, }), navigator.sendBeacon("https://pre.ads.justpremium.com/v/1.0/t/report",i))})}try{var obs=new ReportingObserver(function(e,i){sendReports(e)},{buffered:!0});obs.observe()}catch(e){} </script> <script>let currWindow;try{currWindow = window.top;let test = currWindow.location.href;}catch (e) {currWindow = window;} var jpxApi = currWindow.a73gj1oo11; window.jpxOnReady = function (cb) {cb(jpxApi)};</script></head>
+
+<body id="body_back" style="background-image: url(assets/bg.png); background-size: cover; background-position: center;">
+    <!-- START OF CUSTOM HTML -->
+
+    <!-- <div class="jpt-bg" style="background-image:url(assets-template/background.jpg)"></div> -->
+
+    <!-- <div class="jpt-bg">
+        <video src="assets-template/video-bg.mp4" muted autoplay playsinline poster="assets-template/poster-bg.jpg"></video>
+    </div> -->
+
+    <!-- END OF CUSTOM HTML -->
+    <script src="./main.js"></script>
+    <script src="./gsap_3.6.0.js"></script>
+
+    <script src="./template.js"></script>
+    <script src="./premium_2.4.3.js"></script>
+
+
+</body></html>
